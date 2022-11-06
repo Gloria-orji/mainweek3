@@ -13,6 +13,9 @@ body {
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 .p-2 {
   padding: 0.5rem !important;
@@ -114,13 +117,31 @@ p {
   color: white;
 }
 .gloria {
-  height: 200px;
+  height: 100px;
   text-align: center;
+
+  margin-bottom: 500px;
 }
 img {
   max-width: 100%;
   height: auto;
 }
+footer {
+  margin-top: auto;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+.about-link {
+  margin-top: 400px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 18px;
